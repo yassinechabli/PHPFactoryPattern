@@ -1,0 +1,2 @@
+# PHPFactoryPattern
+This pattern is very simple to build. In fact, if you implement this pattern, you will no longer have to reside in the global part of the script to instantiate a class. Indeed, it will not be up to you but to a factory class. This class will be responsible for loading the classes that you pass to it as an argument. So, when you change your code, you only have to change the factory mask so that most changes take effect. Basically, you will not worry about instantiating your classes, it will be at the factory to do it!
